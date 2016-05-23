@@ -14,3 +14,11 @@ These programs can be started similar to any other python programs: ```python fi
  Step-3: In aother terminal window, start another client, connect it to the server and enter a name
  
  Step-4: Clients can now start chatting over the network
+ 
+## 2) threads/
+
+This folder consists of two files: ```timer.py``` and ```async_threads.py```
+
+```timer.py```:  This file depicts the concept of synchronous threads, where each thread exits independent of other threads
+
+```async_threads.py```: This file executes thread asynchronously, where one thread waits till the other thread completes 
