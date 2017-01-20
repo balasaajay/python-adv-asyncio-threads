@@ -51,4 +51,4 @@ for server in hosts:
 loop.run_until_complete(asyncio.wait(tasks))
 loop.close()
 t2 = time.time() - t1
-print(t2)
+print("Time taken to run in asyncio way in seconds: {}".format(t2))

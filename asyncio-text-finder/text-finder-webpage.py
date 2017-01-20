@@ -34,4 +34,4 @@ for server in hosts:
     search_news(server)
 
 t2 = time.time() - t1
-print(t2)
+print("Time taken to run in traditional way in seconds: {}".format(t2))
