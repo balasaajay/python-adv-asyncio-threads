@@ -29,4 +29,4 @@ This folder consists of two files: ```timer.py``` and ```async_threads.py```
 
 ```text-finder-webpage.py```: This is a python program for searching for some text in a web page in a traditional way (no threads, no asyncio). ***Slower approach.***
 
-```text-finder-webpage-asyncio.py```: This is a python program for searching for some text in a web page in async way (uses event loops and coroutines) . *** Much Faster approach ***
+```text-finder-webpage-asyncio.py```: This is a python program for searching for some text in a web page in async way (uses event loops and coroutines) . ***Much Faster approach***
