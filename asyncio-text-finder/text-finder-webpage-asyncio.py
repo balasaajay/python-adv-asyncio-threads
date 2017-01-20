@@ -41,7 +41,7 @@ async def search_news(server):
         matches = re.findall(president, ct)
         for match in matches:
             l.append(match)
-    print('server:{} Matches: {}'.format(server, set(l)))
+    print('server:{}  Matches:{}'.format(server, set(l)))
 
 t1 = time.time()
 loop = asyncio.get_event_loop()
@@ -51,4 +51,4 @@ for server in hosts:
 loop.run_until_complete(asyncio.wait(tasks))
 loop.close()
 t2 = time.time() - t1
-print("Time taken to run in asyncio way in seconds: {}".format(t2))
+print("Time taken to run in asyncio way in seconds: {0:.4f}".format(t2))
