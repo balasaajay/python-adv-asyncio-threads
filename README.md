@@ -1,5 +1,5 @@
-# python-adv-sockets-threads
-Advanced python concepts like sockets, threads, networking concepts
+# python-adv-asyncio-threads
+Advanced python concepts like asyncio, sockets, threads, networking concepts
 
 ## 1) clients-chat/
 
