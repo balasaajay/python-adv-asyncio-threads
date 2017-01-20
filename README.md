@@ -19,6 +19,14 @@ These programs can be started similar to any other python programs: ```python fi
 
 This folder consists of two files: ```timer.py``` and ```async_threads.py```
 
-```timer.py```:  This file depicts the concept of synchronous threads, where each thread exits independent of other threads
+```timer.py```:  This file uses the concept of synchronous threads, where each thread exits independent of other threads
 
 ```async_threads.py```: This file executes thread asynchronously, where one thread waits till the other thread completes 
+
+## 3) asyncio-text-finder/
+
+* Run both the scripts and observe the time taken in each case
+
+```text-finder-webpage.py```: This is a python program for searching for some text in a web page in a traditional way (no threads, no asyncio). ***Slower approach.***
+
+```text-finder-webpage-asyncio.py```: This is a python program for searching for some text in a web page in async way (uses event loops and coroutines) . ***Much Faster approach***
